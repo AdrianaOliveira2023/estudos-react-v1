@@ -21,7 +21,7 @@ const produto2:Produto= {
 };
 const produto3:Produto= {
     nome: "Bolo de coco",
-    preco: 3500.00,
+    preco:1000,
     descricao: "Bolo de coco",
     imagem: "https://guiadacozinha.com.br/wp-content/uploads/2019/11/bolo-coco-embrulhado.jpg",
     alt: "Bolo de coco alt"
