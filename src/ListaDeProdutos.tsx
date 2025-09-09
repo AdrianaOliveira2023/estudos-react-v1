@@ -27,12 +27,20 @@ const produto3:Produto= {
     alt: "Bolo de coco alt"
 };
 
+const produto4:Produto= {
+    nome: "Bolo de Milho",
+    preco:5000,
+    descricao: "Bolo de Milho",
+    imagem: "https://www.google.com/url?sa=i&url=https%3A%2F%2Freceitas.globo.com%2Fregionais%2Frede-bahia%2Fsao-joao-da-rede-bahia%2Ffaca-um-tradicional-bolo-de-milho-no-sao-joao-g.ghtml&psig=AOvVaw0d-je-MoqF1ZgtNGwGAW9H&ust=1757508172890000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPCay6Xay48DFQAAAAAdAAAAABAL",
+    alt: "Bolo de coco alt"
+};
     return (<div>
     <h1>Catálogo de Bolos</h1>
     <ul>
         <ItemProduto produto={produto1}></ItemProduto>
         <ItemProduto produto={produto2}></ItemProduto>
         <ItemProduto produto={produto3}></ItemProduto>
+         <ItemProduto produto={produto4}></ItemProduto>
         
     </ul>
     </div>);
