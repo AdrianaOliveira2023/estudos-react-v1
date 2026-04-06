@@ -31,8 +31,8 @@ const produto4:Produto= {
     nome: "Bolo de Milho",
     preco:5000,
     descricao: "Bolo de Milho",
-    imagem: "https://www.google.com/url?sa=i&url=https%3A%2F%2Freceitas.globo.com%2Fregionais%2Frede-bahia%2Fsao-joao-da-rede-bahia%2Ffaca-um-tradicional-bolo-de-milho-no-sao-joao-g.ghtml&psig=AOvVaw0d-je-MoqF1ZgtNGwGAW9H&ust=1757508172890000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPCay6Xay48DFQAAAAAdAAAAABAL",
-    alt: "Bolo de coco alt"
+    imagem: "https://guiadacozinha.com.br/wp-content/uploads/2019/10/bolo-de-milho-cozido-39973.jpg",
+    alt: "Bolo de Milho alt"
 };
     return (<div>
     <h1>Catálogo de Bolos</h1>

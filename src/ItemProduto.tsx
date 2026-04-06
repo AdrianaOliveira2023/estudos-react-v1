@@ -15,7 +15,7 @@ type ItemProdutoProps = {
 
 const ItemProduto: React.FC<ItemProdutoProps> = ({ produto }) => {
     return (
-        <li style={{ border: "1px solid #ccc", padding: "16px", margin: "8px", listStyle: "none", maxWidth: "350px" }}>
+        <li className='item-produto' >
             <img src={produto.imagem} alt={produto.alt} style={{ width: "100%", height: "auto", marginBottom: "8px" }} />
             <h2>{produto.nome}</h2>
             <p>{produto.descricao}</p>
